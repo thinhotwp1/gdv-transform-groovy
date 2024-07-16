@@ -14,30 +14,28 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Main extends JFrame {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
-    private JTextArea inputTextArea;
     private JTextArea logArea;
-    private JButton importButton;
     private JFileChooser fileChooser;
     private String inputJson;
 
     public Main() {
-        logger.info("==================| GDV Json Transform started |==================");
-        setTitle("GDV JSON Transform Application");
+        logger.info("==================| GDV Json Transformer started |==================");
+        setTitle("GDV Json Transformer");
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        inputTextArea = new JTextArea();
         logArea = new JTextArea();
         logArea.setEditable(false);
-        logArea.append("Welcome to GDV JSON Transformer.\n[Step 1] Import GDV Json File.\n");
+        logArea.append("Welcome to GDV Json Transformer.\n[Step 1] Import GDV Json File.\n");
 
         // Import GDV Json File
-        importButton = new JButton("Import GDV Json File");
+        JButton importButton = new JButton("Import GDV Json File");
         importButton.addActionListener(e -> loadJsonFile());
 
         // Clear Log
@@ -48,11 +46,11 @@ public class Main extends JFrame {
 
         JPanel panel = new JPanel();
         panel.setLayout(new BorderLayout());
-        panel.add(new JScrollPane(inputTextArea), BorderLayout.NORTH);
         panel.add(new JScrollPane(logArea), BorderLayout.CENTER);
 
         JPanel buttonPanel = new JPanel();
         buttonPanel.add(importButton);
+        buttonPanel.add(clearLogButton);
 
         getContentPane().add(panel, BorderLayout.CENTER);
         getContentPane().add(buttonPanel, BorderLayout.SOUTH);
@@ -64,7 +62,7 @@ public class Main extends JFrame {
             File selectedFile = fileChooser.getSelectedFile();
             try {
                 inputJson = new String(Files.readAllBytes(Paths.get(selectedFile.getAbsolutePath())));
-                logInfo("Input:\n" + inputJson);
+                logArea.append("Input:\n" + inputJson + "\n");
                 transformJson();
             } catch (IOException e) {
                 logError(e.getMessage() + ", stack: " + Arrays.toString(e.getStackTrace()));
@@ -79,8 +77,8 @@ public class Main extends JFrame {
             Class<?> groovyClass = classLoader.parseClass(new File("transform.groovy"));
 
             String result = (String) groovyClass.getMethod("convert", String.class).invoke(null, inputJson);
-            saveJsonToFile(result, "result.json");
-            logInfo("Result:\n" + result);
+            logArea.append("Result:\n" + result + "\n");
+            saveJsonToFile(result.toString(), "result.json" + "\n");
         } catch (Exception e) {
             logError(e.getMessage() + ", stack: " + Arrays.toString(e.getStackTrace()));
             JOptionPane.showMessageDialog(this, "Failed to transform JSON", "Error", JOptionPane.ERROR_MESSAGE);
