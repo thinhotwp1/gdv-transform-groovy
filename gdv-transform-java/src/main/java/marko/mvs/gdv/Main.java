@@ -14,7 +14,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
-import java.util.Objects;
 
 public class Main extends JFrame {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
@@ -73,12 +72,14 @@ public class Main extends JFrame {
 
     private void transformJson() {
         try {
-            GroovyClassLoader classLoader = new GroovyClassLoader();
-            Class<?> groovyClass = classLoader.parseClass(new File("transform.groovy"));
+            Class<?> groovyClass;
+            try (GroovyClassLoader classLoader = new GroovyClassLoader()) {
+                groovyClass = classLoader.parseClass(new File("transform.groovy"));
+            }
 
             String result = (String) groovyClass.getMethod("convert", String.class).invoke(null, inputJson);
             logArea.append("Result:\n" + result + "\n");
-            saveJsonToFile(result, selectedFile.getName().split("\\.")[0] + "_transfom.json" + "\n");
+            saveJsonToFile(result, selectedFile.getName().split("\\.")[0] + "_transform.json" + "\n");
         } catch (Exception e) {
             logError(e.getMessage() + ", stack: " + Arrays.toString(e.getStackTrace()));
             JOptionPane.showMessageDialog(this, "Failed to transform JSON", "Error", JOptionPane.ERROR_MESSAGE);

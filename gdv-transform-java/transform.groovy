@@ -1,6 +1,5 @@
 import com.fasterxml.jackson.databind.ObjectMapper
 import groovy.json.JsonSlurper
-import groovy.util.ConfigSlurper
 
 class JsonTransformer {
     static String convert(String inputJson) {
