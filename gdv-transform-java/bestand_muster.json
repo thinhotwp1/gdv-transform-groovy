@@ -1,0 +1,2223 @@
+{
+  "0001" : {
+    "1" : {
+      "Satzanfang" : {
+        "Satzart" : 5,
+        "VU-Nummer" : 10,
+        "Absender" : 40,
+        "Adressat" : 70,
+        "Erstellungs-Datum- Zeitraum vom- Zeitraum bis" : 86,
+        "Geschäftsstelle/Vermittler" : 96
+      },
+      "Vorsatz, Adresssatz, Allgemeiner Vetragsteil" : {
+        "Satzart 0001" : 99,
+        "Satzart 0100" : 102,
+        "Satzart 0200" : 105
+      },
+      "Kraftfahrzeug" : {
+        "Satzart 0210 050" : 108,
+        "Satzart 0220 051" : 111,
+        "Satzart 0220 052" : 114,
+        "Satzart 0220 053" : 117,
+        "Satzart 0220 054" : 120,
+        "Satzart 0220 059" : 123
+      },
+      "Haftpflicht" : {
+        "Satzart 0210 040" : 126,
+        "Satzart 0220 040" : 129
+      },
+      "Unfall" : {
+        "Satzart 0210 030" : 132,
+        "Satzart 0220 030" : 135
+      },
+      "Leben" : {
+        "Satzart 0210 010" : 138,
+        "Satzart 0220 010" : 141
+      },
+      "VHV" : {
+        "Satzart 0210 130" : 144,
+        "Satzart 0220 130" : 147
+      },
+      "Glas" : {
+        "Satzart 0210 110" : 150,
+        "Satzart 0220 110" : 153
+      },
+      "VGV" : {
+        "Satzart 0210 140" : 156,
+        "Satzart 0220 140" : 159
+      },
+      "Kranken" : {
+        "Satzart 0210 020" : 162,
+        "Satzart 0220 020" : 165
+      },
+      "Rechtschutz" : {
+        "Satzart 0210 070" : 168,
+        "Satzart 0220 070" : 171
+      },
+      "Feuer-Industrie/Gewerbliche Sachversicherung" : {
+        "Satzart 0210" : 174,
+        "Satzart 0220" : 177
+      },
+      "VSV" : {
+        "Satzart 0210 510" : 180,
+        "Satzart 0220 510" : 183
+      },
+      "Technische Versicherungen" : {
+        "Satzart 0210" : 186,
+        "Satzart 0220" : 189
+      },
+      "Transport" : {
+        "Satzart 0210" : 192,
+        "Satzart 0220" : 195,
+        "Satzart 0250 Einzelanmeldung" : 198,
+        "Satzart 0260 Umsatzanmeldung" : 201
+      },
+      "Nicht einzeln definierte Sparten" : {
+        "Satzart 0210" : 204,
+        "Satzart 0220" : 207
+      },
+      "Kraftfahrzeug-Baustein" : {
+        "Kfz-Baustein" : 210
+      },
+      "Beteiligungsinformation" : {
+        "Beteiligungs-Informationssatz Satzart 0300" : 213
+      },
+      "Inkasso" : {
+        "Allgemeine Inkasso-Daten Satzart 0400" : 216,
+        "Inkasso Teilsparte Satzart 0410" : 219,
+        "Allgemeine Inkasso-Daten Satzart 0430" : 222
+      },
+      "Schadeninformation" : {
+        "Schadeninformationssatz Satzart 0500" : 225
+      },
+      "Nachsatz" : {
+        "Nachsatz Satzart 9999" : 228
+      },
+      "Versicherungsteuerabrechnung" : {
+        "Versicherungsteuerabrechnungssatz gemäß EG-Richtlinie Satzart 0420" : 231
+      },
+      "Inkassoabrechnung" : {
+        "Inkasso Abrechnungssatz Transport Satzart 0450" : 234
+      },
+      "Schadenabrechnung" : {
+        "Schadenabrechnungssatz Satzart 0550" : 237
+      },
+      "Art des Absenders" : 238,
+      "Art des Adressaten" : 239,
+      "VU-Abrechnungsstelle" : 241,
+      "Bestandsführende Geschäftsstelle" : 243,
+      "Klauseln" : {
+        "Klausel-Datensatz Satzart 0350" : 246
+      },
+      "Satzende" : 257
+    },
+    "2" : {
+      "Satzanfang" : {
+        "Satzart" : 5,
+        "VU-Nummer" : 10,
+        "Absender" : 40,
+        "Adressat" : 70,
+        "Erstellungs-Datum, Zeitraum vom, Zeitraum bis" : 86,
+        "Geschäftsstelle/Vermittler" : 96
+      },
+      "Kraftfahrzeug" : {
+        "Satzart 0211 050" : 99,
+        "Satzart 0221 051" : 102,
+        "Satzart 0221 052" : 105,
+        "Satzart 0221 053" : 108,
+        "Satzart 0221 054" : 111,
+        "Satzart 0221 059" : 114,
+        "Satzart 0221 055" : 117
+      },
+      "Haftpflicht" : {
+        "Satzart 0211 040" : 120,
+        "Satzart 0221 040" : 123
+      },
+      "Unfall" : {
+        "Satzart 0221 030" : 126
+      },
+      "Leben" : {
+        "Satzart 0211 010" : 129,
+        "Satzart 0221 010" : 132
+      },
+      "VHV" : {
+        "Satzart 0211 130" : 135,
+        "Satzart 0221 130" : 138
+      },
+      "Glas" : {
+        "Satzart 0211 110" : 141,
+        "Satzart 0221 110" : 144
+      },
+      "VGV" : {
+        "Satzart 0211 140" : 147,
+        "Satzart 0221 140" : 150
+      },
+      "Rechtschutz" : {
+        "Satzart 0221 070" : 153
+      },
+      "Feuer-Industrie/Gewerbliche Sachversicherung" : {
+        "Satzart 0211" : 156,
+        "Satzart 0221" : 159
+      },
+      "VSV" : {
+        "Satzart 0221 510" : 162
+      },
+      "Technische Versicherungen" : {
+        "Satzart 0211" : 165,
+        "Satzart 0221" : 168
+      },
+      "Transport" : {
+        "Satzart 0211" : 171,
+        "Satzart 0221" : 174,
+        "Satzart 0251 Einzelanmeldung" : 177
+      },
+      "Nicht einzeln definierte Sparten" : {
+        "Satzart 0211" : 180,
+        "Satzart 0221" : 183
+      },
+      "Investmentfonds" : {
+        "Satzart 0210 550" : 186,
+        "Satzart 0220 550" : 189,
+        "Satzart 0270 550" : 192,
+        "Satzart 0280 550" : 195,
+        "Satzart 0291 550" : 198,
+        "Satzart 0292 550" : 201,
+        "Satzart 0293 550" : 204,
+        "Satzart 0294 550" : 207,
+        "Satzart 0295 550" : 210
+      },
+      "Geschäftsvorfall - Vorsatz" : {
+        "Satzart 0052" : 213
+      },
+      "Adresssatz" : {
+        "Satzart 0102" : 216
+      },
+      "Allgemeiner Vertragsteil - Antrag" : {
+        "Satzart 0212" : 219
+      },
+      "Vorläufige Deckung" : {
+        "Satzart 0352" : 222
+      },
+      "Vorversicherung" : {
+        "Satzart 0362" : 225
+      },
+      "Beitrag - Versicherungsteuer" : {
+        "Satzart 0382" : 228
+      },
+      "Textnachricht/Datei" : {
+        "Satzart 9950" : 231
+      },
+      "Geschäftsvorfall - Nachsatz" : {
+        "Satzart 9952" : 234
+      },
+      "Bausparen" : {
+        "Satzart 0210 580" : 237,
+        "Satzart 0220 580" : 240
+      },
+      "Antrag/Tarifierungsmerkmale" : {
+        "Produktspezifische Antragsdaten 0372" : 243,
+        "Produktspezifische Stammdaten 0600" : 246
+      },
+      "Satzende" : 257
+    },
+    "3" : {
+      "Satzanfang" : {
+        "Satzart" : 5,
+        "VU-Nummer" : 10,
+        "Absender" : 40,
+        "Adressat" : 70,
+        "Erstellungs-Datum, Zeitraum vom, Zeitraum bis" : 86,
+        "Geschäftsstelle / Vermittler" : 96
+      },
+      "eVB-Nummer" : {
+        "eVB-Nummer 0392" : 99
+      },
+      "Fondsdatensatz - Leben" : {
+        "Fondsdatensatz - Leben 0230" : 102
+      },
+      "Allgemeine Antragsdaten" : {
+        "Allgemeine Antragsdaten 0202" : 105
+      },
+      "Unfall" : {
+        "Unfallspezifische Antragsdaten 0222" : 108,
+        "Unfall Leistungsarten 0230" : 111
+      },
+      "Rabatte und Zuschläge" : {
+        "Rabatte und Zuschläge 0390" : 114
+      },
+      "Begleitdokumente und Signaturen" : {
+        "Begleitdokumente und Signaturen 0342" : 117
+      },
+      "MIME-Datei" : {
+        "MIME-Datei 9951" : 120
+      },
+      "Kapitalanlage" : {
+        "Satzart 0210 560" : 123,
+        "Satzart 0220 560" : 126
+      },
+      "Baufinanzierung" : {
+        "Satzart 0210 570" : 129,
+        "Satzart 0220 570" : 132
+      },
+      "Tierkranken" : {
+        "Satzart 0210 684" : 135,
+        "Satzart 0220 684" : 138
+      },
+      "KFZ - Wechselkennzeichen W-AKZ" : {
+        "KFZ - Wechselkennzeichen W-AKZ" : 141
+      },
+      "Verbundene Gebäude - Versicherte Sachen und Kosten" : {
+        "Verbundene Gebäude - Versicherte Sachen und Kosten" : 144
+      },
+      "Leben/Rente-Leistungsarten" : {
+        "Leben/Rente-Leistungsarten" : 147
+      },
+      "Satzende" : 257
+    }
+  },
+  "Bestandsdaten oder Produktinfo Investment" : {
+    "Vertrag" : [ {
+      "Partner" : [ {
+        "0100" : {
+          "1" : {
+            "Satzanfang" : {
+              "Satzart" : 5,
+              "VU-Nummer" : 10,
+              "Bündelungskennzeichen" : 11,
+              "Sparte" : 14,
+              "Versicherungsschein-Nummer" : 31,
+              "Folgenummer" : 33,
+              "Geschäftsstelle / Vermittler" : 43
+            },
+            "Anredeschlüssel" : 44,
+            "Name 1" : 74,
+            "Name 2" : 104,
+            "Name 3" : 134,
+            "Titel" : 154,
+            "Länderkennzeichen" : 157,
+            "Postleitzahl" : 163,
+            "Ort" : 188,
+            "Straße" : 218,
+            "Postfach" : 226,
+            "Geburtsdatum" : 234,
+            "Staatsangehörigkeit" : 237,
+            "Adresskennzeichen" : 239,
+            "Aktenzeichen des Sicherungsgläubigers" : 251,
+            "Zielgruppenschlüssel" : 253,
+            "Aufsichtsfreier Versicherungsnehmer (Großrisiken)" : 254,
+            "postalisches Kennzeichen" : 255,
+            "Geschlecht" : 256,
+            "Satzende" : 257
+          }
+        },
+        "0342" : [ ],
+        "0350" : [ ],
+        "0390" : [ ]
+      } ],
+      "0200" : {
+        "1" : {
+          "Satzanfang" : {
+            "Satzart" : 5,
+            "VU-Nummer" : 10,
+            "Bündelungskennzeichen" : 11,
+            "Sparte" : 14,
+            "Versicherungsschein-Nummer" : 31,
+            "Folgenummer" : 33,
+            "Geschäftsstelle / Vermittler" : 43
+          },
+          "Inkassoart" : 44,
+          "Vertragsbeginn" : 52,
+          "Vertragsablauf" : 60,
+          "Hauptfälligkeit" : 68,
+          "Zahlungsweise" : 69,
+          "Vertragsstatus" : 70,
+          "Abgangsgrund" : 72,
+          "Abgangsdatum" : 80,
+          "Änderungsgrund" : 90,
+          "Änderungsdatum" : 98,
+          "A, F, B" : 99,
+          "Anteil in %" : 104,
+          "Auftrags-Nr. des Vermittlers" : 113,
+          "Währungsschlüssel" : 116,
+          "Gesamtbeitrag (Netto) in Währungseinheiten" : 128,
+          "Mehrzweckfeld" : 158,
+          "Kennzeichen Vers.-Steuer frei" : 159,
+          "Personen-/Kundennummer des Versicherers" : 176,
+          "Personen-/Kundennummer des Vermittlers" : 193,
+          "Aufsichtsfreier Vertrag" : 194,
+          "Aufteilung Versicherungsteuer gemäß EG-Richtlinien" : 195,
+          "Restlaufzeit des Vertrages" : 197,
+          "Laufzeitrabatt in %" : 201,
+          "Antragsdatum" : 209,
+          "Referenz-Versicherungsscheinnummer" : 226,
+          "Spezifikation der Referenz-Versicherungsscheinnummer" : 227,
+          "Ordnungsbegriff" : 244,
+          "Währung der Dokumente für VN" : 247,
+          "Erweiterungssatz vorhanden" : 248,
+          "Einzahlung / Ausschüttung" : 249,
+          "Satzende" : 257
+        }
+      },
+      "0342" : [ ],
+      "0350" : [ ],
+      "0390" : [ ],
+      "Sparte" : [ {
+        "Leben 010" : {
+          "0210" : "",
+          "0211" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Versicherte Person" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ],
+            "Spartenspezifischer Teil" : {
+              "Kapitallebens-/Risikovers. - Wagnisart 1 / 3" : [ {
+                "0220" : "",
+                "0221" : {
+                  "1" : {
+                    "Satzanfang" : {
+                      "Satzart" : 5,
+                      "VU-Nummer" : 10,
+                      "Bündelungskennzeichen" : 11,
+                      "Sparte" : 14,
+                      "Versicherungsschein-Nummer" : 31,
+                      "Folgenummer" : 33,
+                      "Geschäftsstelle / Vermittler" : 43
+                    },
+                    "KH-Deckungssummen in Währungseinheiten" : 85,
+                    "KH-Beitrag in Währungseinheiten" : 97,
+                    "KH-Zuschläge in Währungseinheiten" : 109,
+                    "KH-Abschläge in Währungseinheiten" : 121,
+                    "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                    "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                    "Referenznummer" : 152,
+                    "Lfd. Nummer" : 156,
+                    "Personennummer / lfd. Nummer" : 173,
+                    "Satzende" : 257
+                  }
+                },
+                "0225" : [ ],
+                "0350" : [ ],
+                "0390" : [ ]
+              } ],
+              "Berufsunfähigkeit - Wagnisart 4 / 8" : [ {
+                "0220" : "",
+                "0221" : "",
+                "0225" : [ ],
+                "0350" : [ ],
+                "0390" : [ ]
+              } ],
+              "Unfall - Wagnisart 6" : [ {
+                "0220" : "",
+                "0221" : "",
+                "0225" : [ ],
+                "0350" : [ ],
+                "0390" : [ ]
+              } ],
+              "Risikozusatz - Wagnisart 5" : [ {
+                "0220" : "",
+                "0221" : "",
+                "0225" : [ ],
+                "0350" : [ ],
+                "0390" : [ ]
+              } ],
+              "Rentenversicherung -  Wagnisart 2" : [ {
+                "0220" : "",
+                "0221" : "",
+                "0225" : [ ],
+                "0350" : [ ],
+                "0390" : [ ]
+              } ],
+              "Kapital-/Fondsgebundene LV - Wagnisart 7" : [ {
+                "0220" : "",
+                "0221" : "",
+                "0225" : [ ],
+                "0230" : [ ],
+                "0350" : [ ],
+                "0390" : [ ]
+              } ],
+              "Fondsgebundene Rentenversicherung - Wagnisart 9" : [ {
+                "0220" : "",
+                "0225" : [ ],
+                "0230" : [ ],
+                "0350" : [ ],
+                "0390" : [ ]
+              } ]
+            }
+          } ]
+        },
+        "Kranken 020" : {
+          "0210" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Kranken - Personenspezifische Daten 020" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ],
+            "Tarifdaten" : [ {
+              "0220" : "",
+              "0350" : [ ],
+              "0390" : [ ]
+            } ]
+          } ]
+        },
+        "Unfall 030" : [ {
+          "0210" : {
+            "1" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "Vertragsstatus" : 44,
+              "Beginn" : 52,
+              "Ausschluss" : 60,
+              "Änderungsdatum" : 68,
+              "Allgemeine Versicherungsbedingungen" : 72,
+              "Sonderbedingungen" : 73,
+              "Beitragsrückgewähr" : 74,
+              "Dynamik" : 75,
+              "Dynamik in %" : 80,
+              "Letzte Erhöhung" : 86,
+              "Nächste Erhöhung" : 92,
+              "Beitragsregulierung" : 93,
+              "Währungsschlüssel" : 96,
+              "Zuschlagsbetrag in Währungseinheiten" : 108,
+              "Abschlagsbetrag in Währungseinheiten" : 120,
+              "Gesamtbeitrag in Währungseinheiten" : 132,
+              "Abschlussprovision" : 137,
+              "Folgeprovision" : 142,
+              "Kennzeichen für abweichende Abschlussprovision" : 143,
+              "Kennzeichen für abweichende Folgeprovision" : 144,
+              "Restlaufzeit des Vertrages" : 146,
+              "Laufzeitrabatt in %" : 150,
+              "Tarifbezeichnung" : 180,
+              "Erhöhungsart Dynamik" : 181,
+              "Referenz-Versicherungsscheinnummer" : 198,
+              "Weitere Referenznummern" : 199,
+              "Produktform" : 204,
+              "Produktform gültig ab" : 210,
+              "Produktname" : 230,
+              "Referenznummer" : 237,
+              "Besondere Vereinbarungen" : 238,
+              "Direktanspruch" : 239,
+              "Erweiterter BerVersV-Schlüssel" : 244,
+              "Satzende" : 257
+            }
+          },
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "Lfd. Nummer der versicherten Person (VP) / Personengruppe" : 49,
+                "Satznummer" : 50,
+                "Bezeichnung Personengruppe" : 80,
+                "Anzahl der VP pro Personengruppe" : 86,
+                "Name der VP" : 116,
+                "Vorname der VP" : 146,
+                "Geburtsdatum der VP" : 154,
+                "Geschlecht der VP" : 155,
+                "Berufsschlüssel" : 158,
+                "Beruf - Text" : 188,
+                "Gefahrengruppe" : 189,
+                "Tarif" : 190,
+                "Deckungsumfang" : 191,
+                "Währungsschlüssel" : 194,
+                "Zuschlag in %" : 199,
+                "Abschlag in %" : 204,
+                "Beitrag pro VP oder pro Personengruppe in Währungseinheiten" : 216,
+                "Einschlussdatum VP / Personengruppe" : 224,
+                "Ausschlussdatum VP / Personengruppe" : 232,
+                "Änderungsdatum" : 240,
+                "Besondere Vereinbarungen zum Fluggastrisiko" : 241,
+                "passives Kriegsrisiko" : 242,
+                "Kündigungsklausel VP/ Personengruppe gestrichen" : 243,
+                "Eintrittsalter der VP" : 245,
+                "Altersgruppe" : 247,
+                "Leerstellen" : 250,
+                "Satznummernwiederholung" : 251,
+                "Art des Berufsschlüsselverzeichnisses" : 252,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "2" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "Lfd. Nummer der versicherten Person (VP) / Personengruppe" : 49,
+                "Satznummer" : 50,
+                "Tod" : 64,
+                "Invalidität" : 78,
+                "Tagegeld 1" : 88,
+                "Tagegeld 2" : 98,
+                "Krankenhaustagegeld" : 108,
+                "Genesungsgeld" : 118,
+                "Übergangsentschädigung" : 132,
+                "Heilkosten" : 146,
+                "Feste Rente" : 160,
+                "Kosmetische Operationen" : 174,
+                "Kurkosten" : 188,
+                "Bergungskosten" : 202,
+                "Satzende" : 257
+              },
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "0230" : [ ],
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        } ],
+        "Haftpflicht 040" : [ {
+          "0210" : {
+            "1" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "Vertragsstatus" : 44,
+              "Beginn" : 52,
+              "Ausschluss" : 60,
+              "Änderungsdatum" : 68,
+              "Summenart 1" : 69,
+              "Währungsschlüssel 1" : 72,
+              "Deckungssumme 1 in Tausend Währungseinheiten" : 81,
+              "Summenart 2" : 82,
+              "Währungsschlüssel 2" : 85,
+              "Deckungssumme 2 in Tausend Währungseinheiten" : 94,
+              "Summenart 3" : 95,
+              "Währungsschlüssel 3" : 98,
+              "Deckungssumme 3 in Tausend Währungseinheiten" : 107,
+              "Summenart 4" : 108,
+              "Währungsschlüssel 4" : 111,
+              "Deckungssumme 4 in Tausend Währungseinheiten" : 120,
+              "Kennzeichen für Jahres-Maximierung" : 121,
+              "Selbstbehalt" : 122,
+              "Allgemeine Versicherungsbedingungen" : 126,
+              "Sonderbedingungen" : 127,
+              "Währungsschlüssel" : 130,
+              "Zuschlagsbetrag in Währungseinheiten" : 142,
+              "Abschlagsbetrag in Währungseinheiten" : 154,
+              "Gesamtbeitrag in Währungseinheiten" : 166,
+              "Abschlussprovision" : 171,
+              "Folgeprovision" : 176,
+              "Kennzeichen für abweichende Abschlussprovision" : 177,
+              "Kennzeichen für abweichende Folgeprovision" : 178,
+              "Restlaufzeit des Vertrages" : 180,
+              "Laufzeitrabatt in %" : 184,
+              "Produktform" : 189,
+              "Produktform gültig ab" : 195,
+              "Produktname" : 215,
+              "Referenznummer" : 222,
+              "Erweiterter BerVersV-Schlüssel" : 227,
+              "Satzende" : 257
+            }
+          },
+          "0211" : {
+            "1" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "Deckungssumme 1 in Währungseinheiten" : 57,
+              "Deckungssumme 2 in Währungseinheiten" : 71,
+              "Deckungssumme 3 in Währungseinheiten" : 85,
+              "Deckungssumme 4 in Währungseinheiten" : 99,
+              "Referenznummer" : 106,
+              "Satzende" : 257
+            }
+          },
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "Wagnisart" : 49,
+                "Ordnungs-Nummer für Wagniszusatz" : 51,
+                "Satznummer" : 52,
+                "Berechnungseinheit" : 55,
+                "Mengenschlüssel" : 56,
+                "Wagnismenge" : 68,
+                "Währungsschlüssel" : 71,
+                "Beitrag je Berechnungseinheit und Mengenschlüssel" : 84,
+                "Mindestbeitrag je Wagnis in Währungseinheiten" : 96,
+                "Zuschlagsbetrag in Währungseinheiten" : 108,
+                "Abschlagsbetrag in Währungseinheiten" : 120,
+                "Gesamtbeitrag in Währungseinheiten" : 132,
+                "Summenart 1" : 133,
+                "Deckungssumme 1 in Tausend Währungseinheiten" : 142,
+                "Summenart 2" : 143,
+                "Deckungssumme 2 in Tausend Währungseinheiten" : 152,
+                "Summenart 3" : 153,
+                "Deckungssumme 3 in Tausend Währungseinheiten" : 162,
+                "Summenart 4" : 163,
+                "Deckungssumme 4 in Tausend Währungseinheiten" : 172,
+                "Kennzeichen für Jahres-Maximierung" : 173,
+                "Kennung Erhöhungssatz" : 174,
+                "Erhöhungssatz § 8, III AHB" : 179,
+                "letzte Erhöhung § 8,III AHB" : 187,
+                "Beginn" : 195,
+                "Ausschluss" : 203,
+                "Änderungsdatum" : 211,
+                "Selbstbeteiligung in WE (mind.)" : 223,
+                "Selbstbeteiligung in WE (max.)" : 235,
+                "Selbstbeteiligung %" : 239,
+                "Selbstbeteiligung in Währungseinheiten" : 251,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "Wagnisart" : 49,
+                "Ordnungs-Nummer für Wagniszusatz" : 51,
+                "Satznummer" : 52,
+                "Deckungssumme 1 in Währungseinheiten" : 66,
+                "Deckungssumme 2 in Währungseinheiten" : 80,
+                "Deckungssumme 3 in Währungseinheiten" : 94,
+                "Deckungssumme 4 in Währungseinheiten" : 108,
+                "Referenznummer" : 115,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        } ],
+        "Kraftahrt 050" : [ {
+          "0210" : {
+            "1" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "Wagniskennziffer" : 46,
+              "Stärke" : 50,
+              "Herstellername" : 65,
+              "Modellname" : 90,
+              "Hersteller-Schlüssel-Nr." : 94,
+              "Typschlüssel-Nr." : 97,
+              "Fahrzeugidentifizierungsnummer" : 114,
+              "Amtliches Kennzeichen" : 126,
+              "Erstzulassung" : 134,
+              "Neupreis in Währungseinheiten" : 141,
+              "Mehrwert in Währungseinheiten" : 147,
+              "Kennung für ABS-Rabatt" : 148,
+              "Flottenkennzeichen" : 149,
+              "Währungsschlüssel" : 152,
+              "Gesamtbeitrag in Währungseinheiten" : 164,
+              "Sicherungsschein" : 165,
+              "Sonderbedingungen / Klauseln" : 166,
+              "Sicherungseinrichtung" : 167,
+              "Klartext Sicherungseinrichtung" : 197,
+              "Schlüssel Sicherungseinrichtung" : 200,
+              "Baustein-Gesamtbeitrag 1 in Währungseinheiten" : 212,
+              "Baustein-Gesamtbeitrag 2 in Währungseinheiten" : 224,
+              "Referenznummer" : 231,
+              "Lfd. Nummer" : 235,
+              "Personen-/Kundennummer des Versicherers" : 252,
+              "Saisonkennzeichen" : 256,
+              "Satzende" : 257
+            },
+            "2" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "Produktform" : 48,
+              "Produktform gültig ab" : 54,
+              "Fahrzeugart" : 84,
+              "Art des amtlichen Kennzeichens" : 86,
+              "Land des amtl. Kennzeichens" : 89,
+              "Baujahr" : 97,
+              "Erste Zulassung auf den VN" : 105,
+              "Art der Zulassung beim Vorbesitzer" : 107,
+              "Anzahl der Vorbesitzer" : 109,
+              "Kaufpreis" : 121,
+              "Mehrwertgrund" : 151,
+              "Lfd. Personennummer des Sicherungsgläubigers" : 157,
+              "Jährliche Fahrleistung" : 163,
+              "Garage" : 165,
+              "Nutzungsart" : 167,
+              "Eigentumsverhältnis (Fahrzeug)" : 168,
+              "Wohneigentum" : 169,
+              "Produktname" : 189,
+              "Kreisgemeindeschlüssel" : 194,
+              "Kreisgemeindeschlüssel Zusatzinformation" : 195,
+              "Beginn Versicherungsschutz" : 203,
+              "Endedatum des Versicherungsschutzes bei roten Kennzeichen" : 211,
+              "Gültigkeitsdauer in Tagen bei Kurzzeitkennzeichen" : 213,
+              "eVB-Nummer" : 220,
+              "Aufbauart" : 222,
+              "Gefahrgut" : 223,
+              "Gesamtmasse" : 229,
+              "Stärkeeinheit" : 230,
+              "Wechselkennzeichen W-AKZ" : 231,
+              "Rolle W-AKZ" : 233,
+              "Fahrzeugklasse" : 243,
+              "Aufbauart KBA" : 253,
+              "Satzende" : 257
+            }
+          },
+          "0211" : {
+            "1" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "Neupreis in Währungseinheiten" : 55,
+              "Mehrwert in Währungseinheiten" : 67,
+              "Referenznummer" : 74,
+              "Lfd. Nummer" : 78,
+              "Personen-/Kundennummer des Versicherers" : 95,
+              "Satzende" : 257
+            }
+          },
+          "0230" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Kraftfahrt - Haftpflicht 051" : {
+            "0220" : "",
+            "0221" : "",
+            "0350" : [ ],
+            "0390" : [ ],
+            "Kraftfahrt - Baustein 055" : [ {
+              "0220" : "",
+              "0221" : "",
+              "0350" : [ ],
+              "0390" : [ ]
+            } ],
+            "1" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "KH-Beginn" : 51,
+              "KH-Ausschluß" : 59,
+              "KH-Änderungsdatum" : 67,
+              "KH-Tarifgruppe" : 71,
+              "KH Deckungsart" : 73,
+              "KH-Deckungssummen" : 100,
+              "KH-RGJ" : 102,
+              "KH-SF/S-Klasse" : 107,
+              "KH-Beitragssätze" : 110,
+              "KH-Beitrag in Währungseinheiten" : 118,
+              "KH-Zuschläge in %" : 123,
+              "KH-Abschläge in %" : 128,
+              "KH-Zuschläge in Währungseinheiten" : 134,
+              "KH-Abschläge in Währungseinheiten" : 140,
+              "Flottenrabatt in %" : 143,
+              "Gültige AKB" : 147,
+              "Provision" : 151,
+              "KH-Schäden aus Rückstufung" : 153,
+              "Kennzeichen für abweichende Provision" : 154,
+              "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+              "Schutzbrief /Verkehrsservice" : 163,
+              "Referenznummer" : 170,
+              "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+              "Tyklasse KH" : 183,
+              "Tarif" : 193,
+              "Lfd. Nummer" : 197,
+              "Personennummer / lfd. Nummer" : 214,
+              "Satzende" : 257
+            }
+          },
+          "Kraftfahrt - Kasko" : {
+            "Kraftfahrt - Vollkasko 052" : {
+              "0220" : "",
+              "0221" : "",
+              "0350" : [ ],
+              "0390" : [ ],
+              "Kraftfahrt - Baustein 055" : [ {
+                "0220" : "",
+                "0221" : "",
+                "0350" : [ ],
+                "0390" : [ ]
+              } ],
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "Kraftfahrt - Teilkasko 053" : {
+              "0220" : "",
+              "0221" : "",
+              "0350" : [ ],
+              "0390" : [ ],
+              "Kraftfahrt - Baustein 055" : [ {
+                "0220" : "",
+                "0221" : "",
+                "0350" : [ ],
+                "0390" : [ ]
+              } ],
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KFT-Beginn" : 51,
+                "KFT-Ausschluss" : 59,
+                "KFT-Änderungsdatum" : 67,
+                "KFT-Tarifgruppe" : 71,
+                "KFT-Deckungsart" : 73,
+                "KFT-Beitrag in Währungseinheiten" : 81,
+                "KFT-Zuschläge in %" : 86,
+                "KFT-Abschläge in %" : 91,
+                "KFT-Zuschläge in Währungseinheiten" : 97,
+                "KFT-Abschläge in Währungseinheiten" : 103,
+                "Flottenrabatt in %" : 106,
+                "Gültige AKB" : 110,
+                "Provision" : 114,
+                "Typklasse für KFT" : 116,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für Teilkasko" : 126,
+                "Kennzeichen für abweichende Provision" : 127,
+                "Tarifbeitrag 100 % für Kraftfahrt-Fahrzeugteil in Währungseinheiten" : 135,
+                "Referenznummer" : 142,
+                "Tarif" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Schutzbrief / Verkehrsservice" : 174,
+                "GAP-Deckung" : 175,
+                "Satzende" : 257
+              }
+            }
+          },
+          "Kraftfahrt - Unfall 054" : {
+            "0220" : "",
+            "0221" : "",
+            "0350" : [ ],
+            "0390" : [ ],
+            "Kraftfahrt - Baustein 055" : [ {
+              "0220" : "",
+              "0221" : "",
+              "0350" : [ ],
+              "0390" : [ ]
+            } ],
+            "1" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "KH-Deckungssummen in Währungseinheiten" : 85,
+              "KH-Beitrag in Währungseinheiten" : 97,
+              "KH-Zuschläge in Währungseinheiten" : 109,
+              "KH-Abschläge in Währungseinheiten" : 121,
+              "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+              "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+              "Referenznummer" : 152,
+              "Lfd. Nummer" : 156,
+              "Personennummer / lfd. Nummer" : 173,
+              "Satzende" : 257
+            }
+          },
+          "Kraftfahrt - Baustein 055" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KFT-Beginn" : 51,
+                "KFT-Ausschluss" : 59,
+                "KFT-Änderungsdatum" : 67,
+                "KFT-Tarifgruppe" : 71,
+                "KFT-Deckungsart" : 73,
+                "KFT-Beitrag in Währungseinheiten" : 81,
+                "KFT-Zuschläge in %" : 86,
+                "KFT-Abschläge in %" : 91,
+                "KFT-Zuschläge in Währungseinheiten" : 97,
+                "KFT-Abschläge in Währungseinheiten" : 103,
+                "Flottenrabatt in %" : 106,
+                "Gültige AKB" : 110,
+                "Provision" : 114,
+                "Typklasse für KFT" : 116,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für Teilkasko" : 126,
+                "Kennzeichen für abweichende Provision" : 127,
+                "Tarifbeitrag 100 % für Kraftfahrt-Fahrzeugteil in Währungseinheiten" : 135,
+                "Referenznummer" : 142,
+                "Tarif" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Schutzbrief / Verkehrsservice" : 174,
+                "GAP-Deckung" : 175,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KFT-Beitrag in Währungseinheiten" : 55,
+                "KFT-Zuschläge in Währungseinheiten" : 67,
+                "KFT-Abschläge in Währungseinheiten" : 79,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für Teilkasko" : 91,
+                "Tarifbeitrag 100 % für Kraftfahrt-Fahrzeugteil in Währungseinheiten" : 103,
+                "Referenznummer" : 110,
+                "Lfd. Nummer" : 114,
+                "Personennummer / lfd. Nummer" : 131,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ],
+          "Kraftfahrt - Gepäck 059" : {
+            "0220" : "",
+            "0221" : "",
+            "0350" : [ ],
+            "0390" : [ ],
+            "Kraftfahrt - Baustein 055" : [ {
+              "0220" : "",
+              "0221" : "",
+              "0350" : [ ],
+              "0390" : [ ]
+            } ]
+          }
+        } ],
+        "Rechtsschutz 070" : [ {
+          "0210" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        } ],
+        "Feuer - Industrie" : {
+          " Gerwerbliche Sach 080" : [ {
+            "0210" : "",
+            "0211" : "",
+            "0350" : [ ],
+            "0390" : [ ],
+            "Spartenspezifischer Teil" : [ {
+              "0220" : {
+                "1" : {
+                  "Satzanfang" : {
+                    "Satzart" : 5,
+                    "VU-Nummer" : 10,
+                    "Bündelungskennzeichen" : 11,
+                    "Sparte" : 14,
+                    "Versicherungsschein-Nummer" : 31,
+                    "Folgenummer" : 33,
+                    "Geschäftsstelle / Vermittler" : 43
+                  },
+                  "KH-Beginn" : 51,
+                  "KH-Ausschluß" : 59,
+                  "KH-Änderungsdatum" : 67,
+                  "KH-Tarifgruppe" : 71,
+                  "KH Deckungsart" : 73,
+                  "KH-Deckungssummen" : 100,
+                  "KH-RGJ" : 102,
+                  "KH-SF/S-Klasse" : 107,
+                  "KH-Beitragssätze" : 110,
+                  "KH-Beitrag in Währungseinheiten" : 118,
+                  "KH-Zuschläge in %" : 123,
+                  "KH-Abschläge in %" : 128,
+                  "KH-Zuschläge in Währungseinheiten" : 134,
+                  "KH-Abschläge in Währungseinheiten" : 140,
+                  "Flottenrabatt in %" : 143,
+                  "Gültige AKB" : 147,
+                  "Provision" : 151,
+                  "KH-Schäden aus Rückstufung" : 153,
+                  "Kennzeichen für abweichende Provision" : 154,
+                  "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                  "Schutzbrief /Verkehrsservice" : 163,
+                  "Referenznummer" : 170,
+                  "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                  "Tyklasse KH" : 183,
+                  "Tarif" : 193,
+                  "Lfd. Nummer" : 197,
+                  "Personennummer / lfd. Nummer" : 214,
+                  "Satzende" : 257
+                }
+              },
+              "0221" : {
+                "1" : {
+                  "Satzanfang" : {
+                    "Satzart" : 5,
+                    "VU-Nummer" : 10,
+                    "Bündelungskennzeichen" : 11,
+                    "Sparte" : 14,
+                    "Versicherungsschein-Nummer" : 31,
+                    "Folgenummer" : 33,
+                    "Geschäftsstelle / Vermittler" : 43
+                  },
+                  "KH-Deckungssummen in Währungseinheiten" : 85,
+                  "KH-Beitrag in Währungseinheiten" : 97,
+                  "KH-Zuschläge in Währungseinheiten" : 109,
+                  "KH-Abschläge in Währungseinheiten" : 121,
+                  "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                  "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                  "Referenznummer" : 152,
+                  "Lfd. Nummer" : 156,
+                  "Personennummer / lfd. Nummer" : 173,
+                  "Satzende" : 257
+                }
+              },
+              "0350" : [ ],
+              "0390" : [ ]
+            } ]
+          } ]
+        },
+        "Glas 110" : [ {
+          "0210" : "",
+          "0211" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        } ],
+        "Verbundene Hausrat 130" : [ {
+          "0210" : {
+            "1" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "Vertragsstatus" : 44,
+              "Beginn" : 52,
+              "Ausschluss" : 60,
+              "Änderungsdatum" : 68,
+              "versicherte Gefahren" : 78,
+              "Länderkennzeichen der Risikoanschrift" : 81,
+              "Postleitzahl der Risikoanschrift" : 87,
+              "Risikoort" : 112,
+              "Risikostraße" : 142,
+              "Währungsschlüssel" : 145,
+              "Zuschlagsbetrag in Währungseinheiten" : 157,
+              "Abschlagsbetrag in Währungseinheiten" : 169,
+              "Gesamtversicherungssumme in Währungseinheiten" : 181,
+              "Gesamtbeitrag in Währungseinheiten" : 193,
+              "Bedingungen" : 198,
+              "erweiterte Neuwertversicherung" : 199,
+              "Sicherungsrichtlinien" : 200,
+              "Einbruch Meldeanlage" : 201,
+              "Risikokennziffer" : 206,
+              "Anzahl Monate unbewohnt" : 208,
+              "Wohnfläche qm" : 213,
+              "Tarifzone" : 214,
+              "Bauartklasse" : 215,
+              "Gefahrenerhöhung" : 216,
+              "Einschluss Vandalismus" : 217,
+              "Untervers.-Verzicht" : 218,
+              "Abschlussprovision" : 223,
+              "Kennzeichen für abweichende Abschlussprovision" : 224,
+              "Folgeprovision" : 229,
+              "Kennzeichen für abweichende Folgeprovision" : 230,
+              "Restlaufzeit des Vertrages" : 232,
+              "Laufzeitrabatt in %" : 236,
+              "Produktform" : 241,
+              "Produktform gültig ab" : 247,
+              "Satzende" : 257
+            },
+            "2" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "Produktname" : 63,
+              "Referenznummer" : 70,
+              "Ständig bewohnt" : 71,
+              "Erweiterter BerVersV-Schlüssel" : 76,
+              "Satzende" : 257
+            }
+          },
+          "0211" : {
+            "1" : {
+              "Satzanfang" : {
+                "Satzart" : 5,
+                "VU-Nummer" : 10,
+                "Bündelungskennzeichen" : 11,
+                "Sparte" : 14,
+                "Versicherungsschein-Nummer" : 31,
+                "Folgenummer" : 33,
+                "Geschäftsstelle / Vermittler" : 43
+              },
+              "Gesamtversicherungssumme in Währungseinheiten" : 57,
+              "Referenznummer" : 64,
+              "Satzende" : 257
+            }
+          },
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        } ],
+        "Verbundene Gebäude 140" : [ {
+          "0210" : "",
+          "0211" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "0230" : [ ],
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        } ],
+        "Technische 170" : [ {
+          "0210" : "",
+          "0211" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        } ],
+        "Transport 190" : [ {
+          "0210" : "",
+          "0211" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ],
+            "Einzelanmeldungen" : [ {
+              "0250" : "",
+              "0251" : ""
+            } ],
+            "Umsatzanmeldung" : [ {
+              "0260" : ""
+            } ]
+          } ]
+        } ],
+        "Verkehrsservice 510" : {
+          "0210" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        },
+        "Investmentfonds 550" : {
+          "0210" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Investmentfonds - Bestandsdaten 550" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ],
+          "Investmentfonds - Transaktionen 550" : [ {
+            "0270" : ""
+          } ],
+          "Investmentfonds - Provisionen 550" : [ {
+            "0280" : ""
+          } ]
+        },
+        "Kapitalanlage 560" : {
+          "0210" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        },
+        "Baufinanzierung 570" : {
+          "0210" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        },
+        "Bausparen 580" : {
+          "0210" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Bausparen - Produktspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        },
+        "Tierkranken 684" : {
+          "0210" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        },
+        "Allgemeiner Satz 000" : [ {
+          "0210" : "",
+          "0211" : "",
+          "0350" : [ ],
+          "0390" : [ ],
+          "Spartenspezifischer Teil" : [ {
+            "0220" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Beginn" : 51,
+                "KH-Ausschluß" : 59,
+                "KH-Änderungsdatum" : 67,
+                "KH-Tarifgruppe" : 71,
+                "KH Deckungsart" : 73,
+                "KH-Deckungssummen" : 100,
+                "KH-RGJ" : 102,
+                "KH-SF/S-Klasse" : 107,
+                "KH-Beitragssätze" : 110,
+                "KH-Beitrag in Währungseinheiten" : 118,
+                "KH-Zuschläge in %" : 123,
+                "KH-Abschläge in %" : 128,
+                "KH-Zuschläge in Währungseinheiten" : 134,
+                "KH-Abschläge in Währungseinheiten" : 140,
+                "Flottenrabatt in %" : 143,
+                "Gültige AKB" : 147,
+                "Provision" : 151,
+                "KH-Schäden aus Rückstufung" : 153,
+                "Kennzeichen für abweichende Provision" : 154,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 162,
+                "Schutzbrief /Verkehrsservice" : 163,
+                "Referenznummer" : 170,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 180,
+                "Tyklasse KH" : 183,
+                "Tarif" : 193,
+                "Lfd. Nummer" : 197,
+                "Personennummer / lfd. Nummer" : 214,
+                "Satzende" : 257
+              }
+            },
+            "0221" : {
+              "1" : {
+                "Satzanfang" : {
+                  "Satzart" : 5,
+                  "VU-Nummer" : 10,
+                  "Bündelungskennzeichen" : 11,
+                  "Sparte" : 14,
+                  "Versicherungsschein-Nummer" : 31,
+                  "Folgenummer" : 33,
+                  "Geschäftsstelle / Vermittler" : 43
+                },
+                "KH-Deckungssummen in Währungseinheiten" : 85,
+                "KH-Beitrag in Währungseinheiten" : 97,
+                "KH-Zuschläge in Währungseinheiten" : 109,
+                "KH-Abschläge in Währungseinheiten" : 121,
+                "Tarifbeitrag 100 % für Kraftfahrt-Haftpflicht in Währungseinheiten" : 133,
+                "Frei vereinbarte Selbstbeteiligung in Währungseinheiten für KH" : 145,
+                "Referenznummer" : 152,
+                "Lfd. Nummer" : 156,
+                "Personennummer / lfd. Nummer" : 173,
+                "Satzende" : 257
+              }
+            },
+            "0350" : [ ],
+            "0390" : [ ]
+          } ]
+        } ]
+      } ],
+      "0300" : [ ]
+    } ],
+    "Investmentfonds - Produktbeschreibung 550" : {
+      "0291" : [ ],
+      "0292" : [ ],
+      "0293" : [ ],
+      "0294" : [ ],
+      "0295" : [ ]
+    }
+  },
+  "9951" : "",
+  "9999" : {
+    "1" : {
+      "Satzanfang" : {
+        "Satzart" : 5,
+        "Anzahl der Sätze" : 15
+      },
+      "Geschäftsstelle/Vermittler" : 25,
+      "Gesamtbeitrag" : 40,
+      "Gesamtbeitrag-Brutto(Inkasso)" : 54,
+      "Vorzeichen" : 55,
+      "Gesamtprovisions-Betrag" : 69,
+      "Vorzeichen1" : 70,
+      "Versicherungsleistungen" : 84,
+      "Vorzeichen2" : 85,
+      "Schadenbearbeitungskosten" : 99,
+      "Vorzeichen3" : 100,
+      "Satzende" : 257
+    }
+  }
+}
