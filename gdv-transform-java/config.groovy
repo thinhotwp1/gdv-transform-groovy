@@ -11,8 +11,8 @@ output = { input ->
                                             "title": partner."0100"."1"."Titel"
                                     ],
                                     "PmPersonDto": [
-                                            "firstName": partner."0100"."1"."Name 1",
-                                            "lastName": partner."0100"."1"."Name 3"
+                                            "firstName": partner."0100"."1"."Name 3",
+                                            "lastName": partner."0100"."1"."Name 1"
                                     ],
                                     "AdAddressDto": [
                                             "postalCode": partner."0100"."1"."Postleitzahl",
