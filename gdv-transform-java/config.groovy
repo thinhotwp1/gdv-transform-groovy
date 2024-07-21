@@ -17,7 +17,7 @@ output = { input ->
                                     "AdAddressDto": [
                                             "postalCode": partner."0100"."1"."Postleitzahl",
                                             "city": partner."0100"."1"."Ort",
-                                            "street": partner."0100"."1"."Stra�e"
+                                            "street": partner."0100"."1"."Straße"
                                     ]
                             ]
                         },
@@ -29,8 +29,8 @@ output = { input ->
                                 "plannedEndDate"    : contract."0200"."1"."Vertragsablauf"
                         ],
                         "CmContractPriceDto": [
-                                "priceNet" : contract."0200"."1"."Gesamtbeitrag (Netto) in W�hrungseinheiten",
-                                "currency" : contract."0200"."1"."W�hrungsschl�ssel",
+                                "priceNet" : contract."0200"."1"."Gesamtbeitrag (Netto) in Währungseinheiten",
+                                "currency" : contract."0200"."1"."Währungsschlüssel",
                                 "startDate": contract."0200"."1"."Antragsdatum"
                         ]
                 ]

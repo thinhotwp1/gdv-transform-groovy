@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CmContractPriceDto {
-    private String priceNet;
-    private String currency;
-    private String startDate;
+public class PersonDetail {
+    private PmPersonDetailDto pmPersonDetailDto;
+    private PmPersonDto pmPersonDto;
+    private AdAddressDto adAddressDto;
 }

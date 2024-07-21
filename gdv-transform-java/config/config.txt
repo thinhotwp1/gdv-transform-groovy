@@ -1,0 +1,7 @@
+# Path in metadata config (xml file) - This application use metadata version: 20231113_20231113132945.xml
+AGENCY_PATH=Sparte
+INVENTORY_PATH=Bestandsdaten oder Produktinfo Investment
+CONTRACT_PATH=Vertrag
+PARTNER_PATH=Partner
+SPECIAL_AGENCY=051,052,053,054,055,059,130
+AGENCY_PATH_80=Feuer - Industrie

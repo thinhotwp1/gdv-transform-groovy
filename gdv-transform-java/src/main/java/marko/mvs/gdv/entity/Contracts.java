@@ -5,12 +5,12 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CmContractPriceDto {
-    private String priceNet;
-    private String currency;
-    private String startDate;
+public class Contracts {
+    private List<ContractDetail> contracts;
 }
