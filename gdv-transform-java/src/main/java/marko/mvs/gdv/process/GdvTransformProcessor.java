@@ -8,7 +8,7 @@ import org.apache.camel.Processor;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GermanToEnglishProcessor implements Processor {
+public class GdvTransformProcessor implements Processor {
 
     @Override
     public void process(Exchange exchange) throws Exception {
@@ -49,8 +49,8 @@ public class GermanToEnglishProcessor implements Processor {
             JsonNode contractInfoNode = contract.path("0200").path("1");
             CmContractDto cmContractDto = CmContractDto.builder()
                     .contractIdentifier(contractInfoNode.path("Satzanfang").path("Versicherungsschein-Nummer").asText(""))
-                    .startDate(contractInfoNode.path("Satzanfang").path("Vertragsbeginn").asText(""))
-                    .plannedEndDate(contractInfoNode.path("Satzanfang").path("Vertragsablauf").asText(""))
+                    .startDate(contractInfoNode.path("Vertragsbeginn").asText(""))
+                    .plannedEndDate(contractInfoNode.path("Vertragsablauf").asText(""))
                     .build();
             contractDetailBuilder.cmContractDto(cmContractDto);
 

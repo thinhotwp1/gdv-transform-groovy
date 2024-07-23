@@ -2,8 +2,6 @@ package marko.mvs.gdv.process;
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
-import org.apache.camel.Exchange;
-import org.apache.camel.Processor;
 
 import java.util.logging.Logger;
 
@@ -20,7 +18,7 @@ public class CamelProcessor {
                 from("direct:start")
                         .log("Processing JSON data")
                         .unmarshal().json()
-                        .process(new GermanToEnglishProcessor())
+                        .process(new GdvTransformProcessor())
                         .marshal().json()
                         .process(exchange -> result.append(exchange.getIn().getBody(String.class)));
             }

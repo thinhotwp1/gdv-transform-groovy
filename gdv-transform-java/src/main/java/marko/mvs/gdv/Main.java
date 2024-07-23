@@ -9,6 +9,7 @@ import marko.mvs.gdv.process.CamelProcessor;
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.logging.Logger;
 
@@ -94,26 +95,29 @@ public class Main extends JFrame {
     public static void processJson(String inputFilePath, String outputFilePath) {
         ObjectMapper mapper = new ObjectMapper();
         try {
-            JsonNode rootNode = mapper.readTree(new File(inputFilePath));
+            // Đọc file với mã hóa ISO-8859-1
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(inputFilePath), StandardCharsets.ISO_8859_1))) {
+                JsonNode rootNode = mapper.readTree(reader);
 
-            if (!rootNode.isMissingNode()) {
-                // Create output structure
-                JsonNode outputNode = createOutputNode(rootNode, mapper);
+                if (!rootNode.isMissingNode()) {
+                    // Create output structure
+                    JsonNode outputNode = createOutputNode(rootNode, mapper);
 
-                // Chuyển đổi JsonNode output thành các object Java
-                ContractsData contractsData = mapper.treeToValue(outputNode, ContractsData.class);
+                    // Chuyển đổi JsonNode output thành các object Java
+                    ContractsData contractsData = mapper.treeToValue(outputNode, ContractsData.class);
 
-                // Write output to file
-                try (FileWriter file = new FileWriter(outputFilePath)) {
-                    logger.info("Waiting write to file: " + outputFilePath + "...");
-                    logArea.append("Waiting write to file: " + outputFilePath + "...\n");
-                    mapper.writerWithDefaultPrettyPrinter().writeValue(file, contractsData);
-                    logger.info("Processing complete. Output saved to: " + outputFilePath);
-                    logArea.append("Processing complete. Output saved to: " + outputFilePath + "\n");
+                    // Write output to file
+                    try (FileWriter file = new FileWriter(outputFilePath)) {
+                        logger.info("Waiting write to file: " + outputFilePath + "...");
+                        logArea.append("Waiting write to file: " + outputFilePath + "...\n");
+                        mapper.writerWithDefaultPrettyPrinter().writeValue(file, contractsData);
+                        logger.info("Processing complete. Output saved to: " + outputFilePath);
+                        logArea.append("Processing complete. Output saved to: " + outputFilePath + "\n");
+                    }
+
+                } else {
+                    logger.warning("Contracts node is missing.");
                 }
-
-            } else {
-                logger.warning("Contracts node is missing.");
             }
         } catch (IOException e) {
             logArea.append(e.getMessage() + "\nStack: " + Arrays.toString(e.getStackTrace()) + "\n");

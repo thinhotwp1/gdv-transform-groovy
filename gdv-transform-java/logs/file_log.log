@@ -6178,3 +6178,21 @@ java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.Js
 2024-07-21 13:41:37.161 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Routes stopped (total:1)
 2024-07-21 13:41:37.161 INFO  org.apache.camel.impl.engine.AbstractCamelContext -     Stopped route1 (direct://start)
 2024-07-21 13:41:37.170 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Apache Camel 4.7.0 (camel-1) shutdown in 15ms (uptime:0s)
+2024-07-23 16:51:54.962 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Apache Camel 4.7.0 (camel-1) is starting
+2024-07-23 16:51:54.974 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Routes startup (total:1)
+2024-07-23 16:51:54.974 INFO  org.apache.camel.impl.engine.AbstractCamelContext -     Started route1 (direct://start)
+2024-07-23 16:51:54.974 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Apache Camel 4.7.0 (camel-1) started in 8ms (build:0ms init:0ms start:8ms)
+2024-07-23 16:51:55.000 INFO  route1 - Processing JSON data
+2024-07-23 16:52:14.466 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Apache Camel 4.7.0 (camel-1) is shutting down (timeout:45s)
+2024-07-23 16:52:14.472 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Routes stopped (total:1)
+2024-07-23 16:52:14.472 INFO  org.apache.camel.impl.engine.AbstractCamelContext -     Stopped route1 (direct://start)
+2024-07-23 16:52:14.473 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Apache Camel 4.7.0 (camel-1) shutdown in 7ms (uptime:19s)
+2024-07-23 16:55:27.161 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Apache Camel 4.7.0 (camel-1) is starting
+2024-07-23 16:55:27.173 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Routes startup (total:1)
+2024-07-23 16:55:27.173 INFO  org.apache.camel.impl.engine.AbstractCamelContext -     Started route1 (direct://start)
+2024-07-23 16:55:27.173 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Apache Camel 4.7.0 (camel-1) started in 9ms (build:0ms init:0ms start:9ms)
+2024-07-23 16:55:27.199 INFO  route1 - Processing JSON data
+2024-07-23 16:55:27.295 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Apache Camel 4.7.0 (camel-1) is shutting down (timeout:45s)
+2024-07-23 16:55:27.303 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Routes stopped (total:1)
+2024-07-23 16:55:27.303 INFO  org.apache.camel.impl.engine.AbstractCamelContext -     Stopped route1 (direct://start)
+2024-07-23 16:55:27.305 INFO  org.apache.camel.impl.engine.AbstractCamelContext - Apache Camel 4.7.0 (camel-1) shutdown in 9ms (uptime:0s)
