@@ -47,7 +47,7 @@ public class Main extends JFrame {
         buttonPanel.setLayout(new FlowLayout());
 
         // Import GDV to JSON
-        JButton importGdvButton = new JButton("Import GDV to JSON");
+        JButton importGdvButton = new JButton("Import Gdv Json File");
         importGdvButton.addActionListener(event -> importGdvToJson());
 
         // Clear Log
@@ -128,7 +128,7 @@ public class Main extends JFrame {
     }
 
     private static JsonNode createOutputNode(JsonNode contractsNode, ObjectMapper mapper) throws Exception {
-        // Chuyển đổi JsonNode thành chuỗi JSON
+        // Conver ContractsNode to JSON
         String inputJson = mapper.writeValueAsString(contractsNode);
 
         // Sử dụng CamelProcessor để xử lý dữ liệu JSON
