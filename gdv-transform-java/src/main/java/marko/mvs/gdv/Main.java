@@ -1,118 +1,141 @@
 package marko.mvs.gdv;
 
-import groovy.lang.GroovyClassLoader;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import marko.mvs.gdv.config.ConfigManager;
+import marko.mvs.gdv.entity.ContractsData;
+import marko.mvs.gdv.process.CamelProcessor;
 
 import javax.swing.*;
 import java.awt.*;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
+import java.util.logging.Logger;
 
 public class Main extends JFrame {
-    private static final Logger logger = LoggerFactory.getLogger(Main.class);
-    private final JTextArea logArea = new JTextArea();
-    private final JFileChooser fileChooser = new JFileChooser();
-    private String inputJson;
-    private File selectedFile;
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
+    static JTextArea logArea;
+    boolean loadConfig = ConfigManager.getInstance().isConfigLoaded();
 
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            new Main().setVisible(true);
+        });
+    }
     public Main() {
-        logger.info("==================| GDV Json Transformer started |==================");
         initGui();
     }
 
     private void initGui() {
-        setTitle("GDV Json Transformer");
-        setSize(600, 400);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
+        logger.info("==================| Gdv Transform Apache Camel Started |==================");
 
+        // Khởi tạo các thành phần GUI
+        logArea = new JTextArea();
+        JButton selectFileButton = new JButton("Select File");
+
+        // Cài đặt thuộc tính cho JTextArea
         logArea.setEditable(false);
-        logArea.append("Welcome to GDV Json Transformer.\n[Step 1] Import GDV Json File.\n");
+        logArea.setRows(10);
+        logArea.setColumns(40);
+        logArea.append("Welcome to Gdv Transform Apache Camel.\n[Step 1] Import Gdv Json file.\n");
 
-        // Import GDV Json File
-        JButton importButton = new JButton("Import GDV Json File");
-        importButton.addActionListener(e -> loadJsonFile());
+
+        JScrollPane scrollPane = new JScrollPane(logArea);
+        // Button panel
+        JPanel buttonPanel = new JPanel();
+        buttonPanel.setLayout(new FlowLayout());
+
+        // Import GDV to JSON
+        JButton importGdvButton = new JButton("Import Gdv Json File");
+        importGdvButton.addActionListener(event -> importGdvToJson());
 
         // Clear Log
         JButton clearLogButton = new JButton("Clear Log");
         clearLogButton.addActionListener(event -> logArea.replaceRange("Clear log success.\n", 0, logArea.getDocument().getLength()));
 
-        JPanel panel = new JPanel();
-        panel.setLayout(new BorderLayout());
-        panel.add(new JScrollPane(logArea), BorderLayout.CENTER);
-        getContentPane().add(panel, BorderLayout.CENTER);
+        // Cài đặt khung chính và các thành phần
+        setTitle("Gdv Transform Apache Camel");
+        setSize(600, 400);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        setLayout(new BorderLayout());
 
-        JPanel buttonPanel = new JPanel();
-        buttonPanel.add(importButton);
+        buttonPanel.add(importGdvButton);
         buttonPanel.add(clearLogButton);
-        getContentPane().add(buttonPanel, BorderLayout.SOUTH);
-    }
 
-    private void loadJsonFile() {
-        int returnValue = fileChooser.showOpenDialog(this);
-        if (returnValue == JFileChooser.APPROVE_OPTION) {
-            selectedFile = fileChooser.getSelectedFile();
-            try {
-                inputJson = new String(Files.readAllBytes(Paths.get(selectedFile.getAbsolutePath())));
-                logArea.append("Input:\n" + inputJson + "\n");
-                transformJson();
-            } catch (IOException e) {
-                logError(e.getMessage() + ", stack: " + Arrays.toString(e.getStackTrace()));
-                JOptionPane.showMessageDialog(this, "Failed to import input.json", "Error", JOptionPane.ERROR_MESSAGE);
-            }
+        JPanel panel = new JPanel(new BorderLayout());
+        panel.add(scrollPane, BorderLayout.CENTER);
+
+        add(panel);
+        if (loadConfig) {
+            add(buttonPanel, BorderLayout.SOUTH);
+        } else {
+            logArea.append("Error loading config file, please contact to admin to add config file: ./config/config.txt");
         }
+
+        // Hiển thị khung chính
+        setVisible(true);
     }
 
-    private void transformJson() {
-        try {
-            Class<?> groovyClass;
-            try (GroovyClassLoader classLoader = new GroovyClassLoader()) {
-                groovyClass = classLoader.parseClass(new File("transform.groovy"));
-            }
-
-            String result = (String) groovyClass.getMethod("convert", String.class).invoke(null, inputJson);
-            logArea.append("Result:\n" + result + "\n");
-            saveJsonToFile(result, selectedFile.getName().split("\\.")[0] + "_transform.json" + "\n");
-        } catch (Exception e) {
-            logError(e.getMessage() + ", stack: " + Arrays.toString(e.getStackTrace()));
-            JOptionPane.showMessageDialog(this, "Failed to transform JSON", "Error", JOptionPane.ERROR_MESSAGE);
-        }
-    }
-
-    private void saveJsonToFile(String jsonDocument, String nameFile) {
+    private void importGdvToJson() {
         JFileChooser fileChooser = new JFileChooser();
-        fileChooser.setDialogTitle("Save JSON File");
-        fileChooser.setSelectedFile(new File(nameFile));
-        int userSelection = fileChooser.showSaveDialog(this);
-        if (userSelection == JFileChooser.APPROVE_OPTION) {
-            File fileToSave = fileChooser.getSelectedFile();
-            try (FileWriter fileWriter = new FileWriter(fileToSave)) {
-                fileWriter.write(jsonDocument);
-                logInfo("JSON saved to file: " + fileToSave.getAbsolutePath());
-            } catch (IOException e) {
-                logError(e.getMessage() + ", stack: " + Arrays.toString(e.getStackTrace()));
-            }
+        int returnValue = fileChooser.showOpenDialog(null);
+        if (returnValue == JFileChooser.APPROVE_OPTION) {
+            File selectedFile = fileChooser.getSelectedFile();
+            logger.info("Selected file: " + selectedFile.getAbsolutePath());
+            logArea.append("Selected file: " + selectedFile.getAbsolutePath() + "\n");
+
+            String outputFilePath = selectedFile.getParent() + File.separator + "output.json";
+            processJson(selectedFile.getAbsolutePath(), outputFilePath);
         }
     }
 
-    private void logInfo(String message) {
-        logArea.append(message + "\n");
-        logger.info(message);
+
+    public static void processJson(String inputFilePath, String outputFilePath) {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            // Đọc file với mã hóa ISO-8859-1
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(inputFilePath), StandardCharsets.ISO_8859_1))) {
+                JsonNode rootNode = mapper.readTree(reader);
+
+                if (!rootNode.isMissingNode()) {
+                    // Create output structure
+                    JsonNode outputNode = createOutputNode(rootNode, mapper);
+
+                    // Chuyển đổi JsonNode output thành các object Java
+                    ContractsData contractsData = mapper.treeToValue(outputNode, ContractsData.class);
+
+                    // Write output to file
+                    try (FileWriter file = new FileWriter(outputFilePath)) {
+                        logger.info("Waiting write to file: " + outputFilePath + "...");
+                        logArea.append("Waiting write to file: " + outputFilePath + "...\n");
+                        mapper.writerWithDefaultPrettyPrinter().writeValue(file, contractsData);
+                        logger.info("Processing complete. Output saved to: " + outputFilePath);
+                        logArea.append("Processing complete. Output saved to: " + outputFilePath + "\n");
+                    }
+
+                } else {
+                    logger.warning("Contracts node is missing.");
+                }
+            }
+        } catch (IOException e) {
+            logArea.append(e.getMessage() + "\nStack: " + Arrays.toString(e.getStackTrace()) + "\n");
+            logger.severe("Error processing JSON: " + e.getMessage());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
-    private void logError(String message) {
-        logArea.append("Error: " + message + "\n");
-        logger.error(message);
-    }
+    private static JsonNode createOutputNode(JsonNode contractsNode, ObjectMapper mapper) throws Exception {
+        // Conver ContractsNode to JSON
+        String inputJson = mapper.writeValueAsString(contractsNode);
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new Main().setVisible(true));
+        // Sử dụng CamelProcessor để xử lý dữ liệu JSON
+        CamelProcessor camelProcessor = new CamelProcessor();
+        String outputJson = camelProcessor.processJson(inputJson);
+
+        // Chuyển đổi chuỗi JSON đã xử lý thành JsonNode
+        return mapper.readTree(outputJson);
     }
 }

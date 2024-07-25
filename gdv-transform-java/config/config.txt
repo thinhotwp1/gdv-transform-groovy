@@ -1,0 +1,25 @@
+# Path in metadata config (xml file) - This application is using metadata version: 20231113_20231113132945.xml
+AGENCY_PATH=Sparte
+INVENTORY_PATH=Bestandsdaten oder Produktinfo Investment
+CONTRACT_PATH=Vertrag
+PARTNER_PATH=Partner
+PATH_0100=0100
+PATH_0200=0200
+PATH_1=1
+Satzanfang=Satzanfang
+
+# Paths specific
+0100.1.Geburtsdatum=Geburtsdatum
+0100.1.Name1=Name 1
+0100.1.Name2=Name 2
+0100.1.Name3=Name 3
+0100.1.Titel=Titel
+0100.1.Postleitzahl=Postleitzahl
+0100.1.Ort=Ort
+0100.1.Straße=Straße
+0200.1.Satzanfang.Versicherungsschein-Nummer=Versicherungsschein-Nummer
+0200.1.Vertragsbeginn=Vertragsbeginn
+0200.1.Vertragsablauf=Vertragsablauf
+0200.1.Währungsschlüssel=Währungsschlüssel
+0200.1.Antragsdatum=Antragsdatum
+0200.1.Gesamtbeitrag(Netto)inWährungseinheiten=Gesamtbeitrag (Netto) in Währungseinheiten

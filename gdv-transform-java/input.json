@@ -1,0 +1,42 @@
+{
+  "0001": {
+    "1": {
+    },
+    "2": {
+    }
+  },
+  "Bestandsdaten oder Produktinfo Investment": {
+    "Vertrag": [
+      {
+        "Partner": [
+          {
+            "0100": {
+              "1": {
+                "Geburtsdatum": "1980-01-01",
+                "Name 1": "Doe",
+                "Name 2": "John",
+                "Name 3": "John",
+                "Titel": "Mr.",
+                "Postleitzahl": "12345",
+                "Ort": "Berlin",
+                "Straße": "Main Street 1"
+              }
+            }
+          }
+        ],
+        "0200": {
+          "1": {
+            "Satzanfang": {
+              "Versicherungsschein-Nummer": "123456",
+              "Vertragsbeginn": "2020-01-01",
+              "Vertragsablauf": "2030-01-01"
+            },
+            "Gesamtbeitrag (Netto) in Währungseinheiten": "1000",
+            "Währungsschlüssel": "EUR",
+            "Antragsdatum": "2019-12-01"
+          }
+        }
+      }
+    ]
+  }
+}
